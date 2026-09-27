@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project implements a sensor that measures absolute angular position using a Gray-coded disk and 5 phototransistors. It was developed as the second semester's project of the BUT Mesures Physiques program at IUT Le Creusot, France, with a team of 3 students over 6 months. The system achieves an angular resolution of 22.5° using a 4-bit Gray code.
+This project implements a sensor that measures absolute angular position using a Gray-coded disk and 5 phototransistors. It was developed as the second semester's project of the BUT Mesures Physiques program at IUT Le Creusot (71200, France), with a team of 3 students over 6 months. The system achieves an angular resolution of 22.5° using a 4-bit Gray code.
 
 ## Table of Contents
 
