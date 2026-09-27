@@ -68,8 +68,8 @@ The end result fulfill is original purpose by displaying the current interval of
 
 <table>
   <tr>
-    <td><img src="media/photo1.jpg" width="400"></td>
-    <td><img src="media/photo2.jpg" width="400"></td>
+    <td><img src="media/tmp_11e5da32-b353-4afb-be9f-c9049578510f.jpeg" width="400"></td>
+    <td><img src="media/tmp_352de6b3-380c-4f3e-bf5f-6db504c67562.jpeg" width="400"></td>
   </tr>
 </table>
 
