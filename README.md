@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project implements a sensor that measures absolute angular position using a Gray-coded disk and 4 phototransistors. It was developed as the second semester's project of the BUT Mesures Physiques program at IUT Le Creusot, France, with a team of 3 students over 6 months. The system achieves an angular resolution of 22.5° using a 4-bit Gray code.
+This project implements a sensor that measures absolute angular position using a Gray-coded disk and 5 phototransistors. It was developed as the second semester's project of the BUT Mesures Physiques program at IUT Le Creusot, France, with a team of 3 students over 6 months. The system achieves an angular resolution of 22.5° using a 4-bit Gray code.
 
 ## Table of Contents
 
@@ -58,7 +58,7 @@ The repository in organised as followed :
 
 - FreeCAD - mechanical design
 - Arduino IDE - firmware developpement
-- ThinkerCAD - [simulation of the system](https://www.tinkercad.com/things/7D7z3j7ged0-capteur-angluaire-a-code-de-grey)
+- Thinkercad - [simulation of the system](https://www.tinkercad.com/things/7D7z3j7ged0-capteur-angluaire-a-code-de-grey)
 
 
 
