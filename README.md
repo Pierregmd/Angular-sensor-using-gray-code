@@ -11,7 +11,6 @@ This project implements a sensor that measures absolute angular position using a
 - [How It Works](#how-it-works)
 - [Hardware](#hardware)
 - [Repository Structure](#repository-structure)
-- [Installation & Usage](#installation--usage)
 - [Results](#results)
 - [Limitations & Future Improvements](#limitations--future-improvements)
 - [Team](#team)
@@ -26,20 +25,18 @@ This project implements a sensor that measures absolute angular position using a
 
 ### Circuit Diagram / Schematic
 
-[À COMPLÉTER : insère une image du schéma électronique ou du montage
-![schematic](path/to/schematic.png)]
+![schematic](hardware/Schematic.pdf)
 
 ## Hardware
 
-[À COMPLÉTER : tableau des composants avec références exactes — c'est LE point qui manque le plus dans les READMEs étudiants et qui fait la différence côté recruteur]
-
-| Component | Reference | Quantity | Notes |
-|---|---|---|---|
+| Component | Reference | Quantity |
+|---|---|---|
 | Microcontroller | Arduino Uno R3 | 1 | |
-| Phototransistor | [référence exacte] | [N] | |
-| Gray-coded disk | [matériau / résolution] | 1 | [N]-bit |
-| LCD display | [référence exacte, ex: 16x2 HD44780] | 1 | [I2C / parallel] |
-| [autres composants] | | | |
+| Phototransistor | PT331C | 5 | |
+| LCD display | LCD16X2I2C | 1 |
+| 10kohms resistor | | 5 | |
+| 220 ohms resistor | | 1 | |
+|Breadboard | MB-102 | 1 |
 
 ## Repository Structure
 
@@ -47,10 +44,10 @@ This project implements a sensor that measures absolute angular position using a
 
 ```
 .
-├── Photos/            # Pictures of the end result
-├── Pièces3D/           # Files of the 3D pieces
-├── Projet_Arduino_Code.ino          # Full C++ code used to run the system
-├── Rapport projet S2.pdf       # Report
+├── src/            # Full program in C++
+├── media/           # Pictures of the end result
+├── hardware/         # Schematic, component list and
+├── docs/           # Report
 └── README.md
 ```
 
