@@ -1,6 +1,6 @@
 # Angular Sensor using Gray Code
 
-[À COMPLÉTER : 1-2 badges optionnels, ex. build status, license — voir shields.io]
+![Final result](media/tmp_57c473c6-57f6-4831-9e45-62a649df1f74.jpeg)
 
 ## Overview
 
@@ -9,8 +9,10 @@ This project implements a sensor that measures absolute angular position using a
 ## Table of Contents
 
 - [How It Works](#how-it-works)
+- [Schematic](#schematic)
 - [Hardware](#hardware)
 - [Repository Structure](#repository-structure)
+- [Tools used](#tools-used)
 - [Results](#results)
 - [Limitations & Future Improvements](#limitations--future-improvements)
 - [Team](#team)
@@ -23,7 +25,7 @@ This project implements a sensor that measures absolute angular position using a
 4. The 4 bits are combined into an index used to look up the corresponding angle in a lookup table.
 5. The resulting angle is displayed on a LCD16X2I2C LCD screen.
 
-### Circuit Diagram / Schematic
+## Schematic
 
 ![schematic](hardware/Schematic.pdf)
 
@@ -38,20 +40,26 @@ This project implements a sensor that measures absolute angular position using a
 | 220 ohms resistor | | 1 | |
 |Breadboard | MB-102 | 1 |
 
+![component list](hardware/component_list.xlsx)
+
 ## Repository Structure
 
-[À COMPLÉTER : adapte selon l'arborescence réelle du repo]
-
+The repository in organised as followed :
 ```
 .
 ├── src/            # Full program in C++
 ├── media/           # Pictures of the end result
-├── hardware/         # Schematic, component list and
+├── hardware/         # Schematic, component list and cad files
 ├── docs/           # Report
 └── README.md
 ```
 
-## Mechanical conception
+## Tools used
+
+-FreeCAD - mechanical design
+-Arduino IDE - firmware developpement
+-ThinkerCAD - [simulation of the system](https://www.tinkercad.com/things/7D7z3j7ged0-capteur-angluaire-a-code-de-grey)
+
 
 
 ## Results
@@ -69,11 +77,11 @@ Obviously, system we made is for education only, so it is far from an industry l
 
 ## Team
 
-[This projet we realised entirely with the collaboration of :]
+This projet was realised entirely with the collaboration of :
 
-- [Romane _________]
-- [Jean-Baptiste ________]
+- Romane _________
+- Jean-Baptiste ________
 
-[We all equally contributed to every aspect of this project from coding to 3D design]
+We all equally contributed to every aspect of this project from coding to 3D design.
 
-Project completed as part of the **BUT Mesures Physiques** program at [IUT Le Creusot], [2026].
+Project completed as part of the **BUT Mesures Physiques** program at IUT Le Creusot, 2026.
