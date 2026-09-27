@@ -40,7 +40,7 @@ This project implements a sensor that measures absolute angular position using a
 | 220 ohms resistor | | 1 | |
 |Breadboard | MB-102 | 1 |
 
-![component list](hardware/component_list.xlsx)
+![component list](hardware/Components_list.xlsx)
 
 ## Repository Structure
 
