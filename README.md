@@ -56,24 +56,29 @@ The repository in organised as followed :
 
 ## Tools used
 
--FreeCAD - mechanical design
--Arduino IDE - firmware developpement
--ThinkerCAD - [simulation of the system](https://www.tinkercad.com/things/7D7z3j7ged0-capteur-angluaire-a-code-de-grey)
+- FreeCAD - mechanical design
+- Arduino IDE - firmware developpement
+- ThinkerCAD - [simulation of the system](https://www.tinkercad.com/things/7D7z3j7ged0-capteur-angluaire-a-code-de-grey)
 
 
 
 ## Results
 
-[À COMPLÉTER : ce que le capteur permet concrètement, avec des chiffres si possible
-Exemple : "The sensor achieves an angular resolution of [X]° across [N] discrete positions, with a response time of [X] ms."]
+The end result fulfill is original purpose by displaying the current interval of angle. For evrery test we made, the sensor returned the right angle as shown in the folowing pictures
 
-[À COMPLÉTER : ajoute une photo du montage final et/ou une capture du simulateur HTML]
+<table>
+  <tr>
+    <td><img src="media/photo1.jpg" width="400"></td>
+    <td><img src="media/photo2.jpg" width="400"></td>
+  </tr>
+</table>
 
 ## Limitations & Future Improvements
 
-[The result we achieved is functioning but lack multiple things in order to be usable correctly. First, the size of the sensor is too large to fit any real scenario usage. Moreover, it is not strong enough to resist any real application. The resolution is also very high, which leads to bad precision.
+The result we achieved is functioning but lack multiple things in order to be usable correctly. First, the size of the sensor is too large to fit any real scenario usage. Moreover, it is not strong enough to resist any real application. The resolution is also very high, which leads to bad precision.
+
 We could improve the sensor by adding a few more bits in order to improve the resolution by a lot. We could also add functions like a measurement of the rotating speed of the disk or a "relative angle" function.
-Obviously, system we made is for education only, so it is far from an industry like sensor.]
+Obviously, system we made is for education only, so it is far from an industry like sensor.
 
 ## Team
 
